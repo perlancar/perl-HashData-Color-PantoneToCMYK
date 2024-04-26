@@ -1,14 +1,15 @@
 package HashData::Color::PantoneToCMYK;
 
-# AUTHORITY
-# DATE
-# DIST
-# VERSION
-
+use strict;
 use Role::Tiny::With;
 with 'HashDataRole::Source::LinesInDATA';
 #with 'Role::TinyCommons::Collection::FindItem::Iterator';         # add find_item() (has_item already added above)
 #with 'Role::TinyCommons::Collection::PickItems::RandomSeekLines'; # add pick_items() that uses binary search
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 # STATS
 
@@ -24,6 +25,8 @@ an integer from 0 to 100.
 =head1 SEE ALSO
 
 Source: L<https://vectorization.eu/pantone-to-cmyk-converter/>
+
+L<Graphics::ColorNames::Pantone>, L<Graphics::ColorNames::PantoneReport>
 
 =cut
 
