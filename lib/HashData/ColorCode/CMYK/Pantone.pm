@@ -1,4 +1,4 @@
-package HashData::Color::PantoneToCMYK;
+package HashData::ColorCode::CMYK::Pantone;
 
 use strict;
 use Role::Tiny::With;
